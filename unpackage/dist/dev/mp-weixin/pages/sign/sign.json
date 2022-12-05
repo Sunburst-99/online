@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uni-forms": "../../uni_modules/uni-forms/components/uni-forms/uni-forms"
+  }
+}

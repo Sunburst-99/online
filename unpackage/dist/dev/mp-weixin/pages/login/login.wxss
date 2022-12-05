@@ -1,0 +1,39 @@
+
+.content.data-v-b237504c {
+		height: 100vh;
+		padding: 0 50rpx;
+}
+.title.data-v-b237504c {
+		color: #fff;
+		font-size: 60rpx;
+		padding-top: 200rpx;
+		text-align: center;
+}
+.input.data-v-b237504c {
+		padding-bottom: 16rpx;
+		border-bottom: 1px solid #333145;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		gap: 20rpx;
+}
+.input-phone.data-v-b237504c {
+		padding-top: 200rpx;
+}
+.input-password.data-v-b237504c {
+		margin-top: 80rpx;
+}
+.btn-login.data-v-b237504c {
+		background: #493985;
+		color: #f0f0f0;
+		margin-top: 200rpx;
+		border-radius: 50rpx;
+		line-height: 3;
+}
+.btn-sign.data-v-b237504c {
+		color: #f0f0f0;
+		position: absolute;
+		bottom: 80rpx;
+		left: 50%;
+		transform: translateX(-50%);
+}

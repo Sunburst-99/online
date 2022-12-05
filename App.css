@@ -1,0 +1,10 @@
+/*每个页面公共css */
+@import url("/static/style/flex.scss");
+
+page {
+	background-image: linear-gradient(140deg, #311d70, #1a172b, #533b98);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	color: #fff;
+}

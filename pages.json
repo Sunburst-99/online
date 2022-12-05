@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/login/login",
+		// 	"name": "login",
+		// 	"meta": {
+		// 		"auth": false
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/sign/sign",
+		// 	"name": "sign",
+		// 	"meta": {
+		// 		"auth": false
+		// 	}
+		// },
+		{
+			"path": "pages/home/home",
+			"name": "home",
+			"meta": {
+				"auth": true
+			}
+		},{
+            "path" : "pages/contacts/contacts",
+			"name": "contacts",
+			"meta": {
+				"auth": true
+			}
+            
+        },{
+			"path": "pages/mine/mine",
+			"name": "mine",
+			"meta": {
+				"auth": true
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#333",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#fff",
+		"borderStyle": "white",
+		"backgroundColor": "#030403",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "聊天"
+			// "iconPath": "/static/home.png",
+			// "selectedIconPath": "/static/home_select.png"
+		}, {
+			"pagePath": "pages/contacts/contacts",
+			"text": "通讯录"
+			// "iconPath": "/static/mine.png",
+			// "selectedIconPath": "/static/mine_select.png"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"text": "我的"
+			// "iconPath": "/static/mine.png",
+			// "selectedIconPath": "/static/mine_select.png"
+		}]
+	}
+}

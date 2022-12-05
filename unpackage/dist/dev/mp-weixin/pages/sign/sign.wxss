@@ -1,0 +1,43 @@
+
+.content.data-v-10dbb326 {
+		height: 100vh;
+		background-image: linear-gradient(140deg, #311d70, #1a172b, #533b98);
+		background-size: cover;
+		padding: 0 50rpx;
+}
+.title.data-v-10dbb326{
+		color: #fff;
+		font-size: 60rpx;
+		padding-top: 200rpx;
+		text-align: center;
+}
+.input-phone.data-v-10dbb326 {
+		padding-top:200rpx;
+		padding-bottom: 16rpx;
+		border-bottom: 1px solid #333145;
+		color: #fff;
+}
+.input-password.data-v-10dbb326,
+	.get-code.data-v-10dbb326 {
+		margin-top: 80rpx;
+		padding-bottom: 16rpx;
+		border-bottom: 1px solid #333145;
+		color: #fff;
+}
+.get-code.data-v-10dbb326 {
+		display: grid;
+		grid-template-columns: 1fr 200rpx;
+}
+.btn-code.data-v-10dbb326 {
+		color: #888;
+		align-self: center;
+		text-align: center;
+}
+.btn-sign.data-v-10dbb326 {
+		background: #493985;
+		color: #f0f0f0;
+		margin-top: 200rpx;
+		border-radius: 50rpx;
+		line-height: 3;
+}
+
